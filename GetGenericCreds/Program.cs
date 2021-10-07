@@ -24,6 +24,8 @@ namespace GetGenericCreds
             {
                 return null;
             }
+            
+            Console.WriteLine(cm.Username, cm.Password);
 
             Console.WriteLine(cm.Username);
             Console.WriteLine(cm.Password);
