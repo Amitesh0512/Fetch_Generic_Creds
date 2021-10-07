@@ -24,6 +24,8 @@ namespace GetGenericCreds
             {
                 return null;
             }
+            
+            Console.WriteLine(cm.Username, cm.Password);
 
             // UserPass is just a class with two string properties for user and pass
             return new UserPass(cm.Username, cm.Password);
