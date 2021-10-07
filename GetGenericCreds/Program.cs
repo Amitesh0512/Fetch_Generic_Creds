@@ -11,7 +11,9 @@ namespace GetGenericCreds
     {
         static void Main(string[] args)
         {
-            CredentialUtil.GetCredential("CC_Details");
+            var data = CredentialUtil.GetCredential("CC_Details");
+            Console.WriteLine(data.UserName);
+            Console.WriteLine(data.Password);
         }
     }
 
